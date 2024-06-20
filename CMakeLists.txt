@@ -14,7 +14,7 @@ cmake_minimum_required(VERSION 3.8)
 # find_package(Zephyr) in order to load application boilerplate:
 # https://docs.zephyrproject.org/latest/develop/application/index.html
 find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
-project(temp)
+project(MCUBOOT_EXFAT)
 
 # This string ends up getting printed in the device console
 if (NOT DEFINED FROM_WHO)

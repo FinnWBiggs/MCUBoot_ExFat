@@ -1,0 +1,2 @@
+osource "c:/users/finnb/documents/auli/mcuboot_exfat/boards/shields/*/Kconfig.shield"
+osource "C:/ncs/v2.5.0/nrf/boards/shields/*/Kconfig.shield"
