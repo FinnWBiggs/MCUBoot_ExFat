@@ -1184,7 +1184,7 @@ zephyr_udc0: &usbd {
   #size-cells = <1>;
 
   storage_partition: partition@0 {
-   label = "storage";
+   label = "storage_partition";
    reg = <0x00000000 0x00020000>;
   };
  };

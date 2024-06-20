@@ -103,8 +103,6 @@ C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/fb/CMakeFiles
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/fs/CMakeFiles/subsys__fs.dir
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/fs/CMakeFiles/edit_cache.dir
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/fs/CMakeFiles/rebuild_cache.dir
-C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/fs/nvs/CMakeFiles/edit_cache.dir
-C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/fs/nvs/CMakeFiles/rebuild_cache.dir
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/ipc/CMakeFiles/edit_cache.dir
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/ipc/CMakeFiles/rebuild_cache.dir
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/logging/CMakeFiles/edit_cache.dir

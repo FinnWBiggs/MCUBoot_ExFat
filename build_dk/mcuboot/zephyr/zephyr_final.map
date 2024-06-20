@@ -3915,7 +3915,7 @@ cfb_font_area   0x00000000000070e8        0x0
  *(SORT_BY_NAME(SORT_BY_ALIGNMENT(._cfb_font.static.*)))
                 0x00000000000070e8                _cfb_font_list_end = .
 
-rodata          0x00000000000070f0      0xa78
+rodata          0x00000000000070f0      0xa68
  *(SORT_BY_ALIGNMENT(.rodata))
  .rodata        0x00000000000070f0       0x10 C:/ncs/v2.5.0/nrfxlib/crypto/nrf_cc310_bl/lib/cortex-m4/hard-float/no-interrupts/libnrf_cc310_bl_0.9.12.a(nrf_cc310_bl_hash_sha256.c.obj)
  *(SORT_BY_ALIGNMENT(.rodata.*))
@@ -3941,151 +3941,151 @@ rodata          0x00000000000070f0      0xa78
                 0x0000000000007130        0x4 zephyr/libzephyr.a(flash_map_partition_manager.c.obj)
                 0x0000000000007130                flash_map_entries
  .rodata.default_flash_map
-                0x0000000000007134       0x70 zephyr/libzephyr.a(flash_map_partition_manager.c.obj)
+                0x0000000000007134       0x60 zephyr/libzephyr.a(flash_map_partition_manager.c.obj)
                 0x0000000000007134                default_flash_map
- .rodata.apis   0x00000000000071a4        0x8 zephyr/libzephyr.a(nrf_cc3xx_platform_abort_zephyr.c.obj)
+ .rodata.apis   0x0000000000007194        0x8 zephyr/libzephyr.a(nrf_cc3xx_platform_abort_zephyr.c.obj)
  .rodata.static_regions
-                0x00000000000071ac       0x18 zephyr/arch/arch/arm/core/aarch32/mpu/libarch__arm__core__aarch32__mpu.a(arm_core_mpu.c.obj)
+                0x000000000000719c       0x18 zephyr/arch/arch/arm/core/aarch32/mpu/libarch__arm__core__aarch32__mpu.a(arm_core_mpu.c.obj)
  .rodata.mpu_config
-                0x00000000000071c4        0x8 zephyr/soc/soc/arm/common/cortex_m/libsoc__arm__common__cortex_m.a(arm_mpu_regions.c.obj)
-                0x00000000000071c4                mpu_config
+                0x00000000000071b4        0x8 zephyr/soc/soc/arm/common/cortex_m/libsoc__arm__common__cortex_m.a(arm_mpu_regions.c.obj)
+                0x00000000000071b4                mpu_config
  .rodata.mpu_regions
-                0x00000000000071cc       0x18 zephyr/soc/soc/arm/common/cortex_m/libsoc__arm__common__cortex_m.a(arm_mpu_regions.c.obj)
+                0x00000000000071bc       0x18 zephyr/soc/soc/arm/common/cortex_m/libsoc__arm__common__cortex_m.a(arm_mpu_regions.c.obj)
  .rodata.transitions.0
-                0x00000000000071e4        0xc zephyr/drivers/clock_control/libdrivers__clock_control.a(clock_control_nrf.c.obj)
+                0x00000000000071d4        0xc zephyr/drivers/clock_control/libdrivers__clock_control.a(clock_control_nrf.c.obj)
  .rodata.config
-                0x00000000000071f0       0x18 zephyr/drivers/clock_control/libdrivers__clock_control.a(clock_control_nrf.c.obj)
+                0x00000000000071e0       0x18 zephyr/drivers/clock_control/libdrivers__clock_control.a(clock_control_nrf.c.obj)
  .rodata.clock_control_api
-                0x0000000000007208       0x1c zephyr/drivers/clock_control/libdrivers__clock_control.a(clock_control_nrf.c.obj)
+                0x00000000000071f8       0x1c zephyr/drivers/clock_control/libdrivers__clock_control.a(clock_control_nrf.c.obj)
  .rodata.flash_nrf_api
-                0x0000000000007224       0x14 zephyr/drivers/flash/libdrivers__flash.a(soc_flash_nrf.c.obj)
+                0x0000000000007214       0x14 zephyr/drivers/flash/libdrivers__flash.a(soc_flash_nrf.c.obj)
  .rodata.flash_nrf_parameters
-                0x0000000000007238        0x8 zephyr/drivers/flash/libdrivers__flash.a(soc_flash_nrf.c.obj)
+                0x0000000000007228        0x8 zephyr/drivers/flash/libdrivers__flash.a(soc_flash_nrf.c.obj)
  .rodata.gpio_nrfx_p1_cfg
-                0x0000000000007240       0x10 zephyr/drivers/gpio/libdrivers__gpio.a(gpio_nrfx.c.obj)
+                0x0000000000007230       0x10 zephyr/drivers/gpio/libdrivers__gpio.a(gpio_nrfx.c.obj)
  .rodata.gpio_nrfx_p0_cfg
-                0x0000000000007250       0x10 zephyr/drivers/gpio/libdrivers__gpio.a(gpio_nrfx.c.obj)
+                0x0000000000007240       0x10 zephyr/drivers/gpio/libdrivers__gpio.a(gpio_nrfx.c.obj)
  .rodata.gpio_nrfx_drv_api_funcs
-                0x0000000000007260       0x24 zephyr/drivers/gpio/libdrivers__gpio.a(gpio_nrfx.c.obj)
+                0x0000000000007250       0x24 zephyr/drivers/gpio/libdrivers__gpio.a(gpio_nrfx.c.obj)
  .rodata.uarte_0z_config
-                0x0000000000007284       0x10 zephyr/drivers/serial/libdrivers__serial.a(uart_nrfx_uarte.c.obj)
+                0x0000000000007274       0x10 zephyr/drivers/serial/libdrivers__serial.a(uart_nrfx_uarte.c.obj)
  .rodata.__pinctrl_dev_config__device_dts_ord_112
-                0x0000000000007294        0xc zephyr/drivers/serial/libdrivers__serial.a(uart_nrfx_uarte.c.obj)
+                0x0000000000007284        0xc zephyr/drivers/serial/libdrivers__serial.a(uart_nrfx_uarte.c.obj)
  .rodata.__pinctrl_states__device_dts_ord_112
-                0x00000000000072a0        0x8 zephyr/drivers/serial/libdrivers__serial.a(uart_nrfx_uarte.c.obj)
+                0x0000000000007290        0x8 zephyr/drivers/serial/libdrivers__serial.a(uart_nrfx_uarte.c.obj)
  .rodata.__pinctrl_state_pins_0__device_dts_ord_112
-                0x00000000000072a8       0x10 zephyr/drivers/serial/libdrivers__serial.a(uart_nrfx_uarte.c.obj)
+                0x0000000000007298       0x10 zephyr/drivers/serial/libdrivers__serial.a(uart_nrfx_uarte.c.obj)
  .rodata.uart_nrfx_uarte_driver_api
-                0x00000000000072b8       0x14 zephyr/drivers/serial/libdrivers__serial.a(uart_nrfx_uarte.c.obj)
+                0x00000000000072a8       0x14 zephyr/drivers/serial/libdrivers__serial.a(uart_nrfx_uarte.c.obj)
  .rodata.all_slots.0
-                0x00000000000072cc        0x8 modules/mcuboot/boot/bootutil/zephyr/libmcuboot_util.a(bootutil_public.c.obj)
+                0x00000000000072bc        0x8 modules/mcuboot/boot/bootutil/zephyr/libmcuboot_util.a(bootutil_public.c.obj)
  .rodata.levels.0
-                0x00000000000072d4       0x18 zephyr/kernel/libkernel.a(init.c.obj)
+                0x00000000000072c4       0x18 zephyr/kernel/libkernel.a(init.c.obj)
  .rodata.CSWTCH.10
-                0x00000000000072ec       0x1c C:/ncs/v2.5.0/nrfxlib/crypto/nrf_cc310_platform/lib/cortex-m4/hard-float/no-interrupts/libnrf_cc310_platform_0.9.18.a(nrf_cc3xx_platform.c.obj)
+                0x00000000000072dc       0x1c C:/ncs/v2.5.0/nrfxlib/crypto/nrf_cc310_platform/lib/cortex-m4/hard-float/no-interrupts/libnrf_cc310_platform_0.9.18.a(nrf_cc3xx_platform.c.obj)
  .rodata.CC_PalPowerSaveModeInit.str1.4
-                0x0000000000007308       0x20 C:/ncs/v2.5.0/nrfxlib/crypto/nrf_cc310_platform/lib/cortex-m4/hard-float/no-interrupts/libnrf_cc310_platform_0.9.18.a(cc_pal_pm.c.obj)
+                0x00000000000072f8       0x20 C:/ncs/v2.5.0/nrfxlib/crypto/nrf_cc310_platform/lib/cortex-m4/hard-float/no-interrupts/libnrf_cc310_platform_0.9.18.a(cc_pal_pm.c.obj)
  .rodata.mutex_free.str1.4
-                0x0000000000007328       0x26 C:/ncs/v2.5.0/nrfxlib/crypto/nrf_cc310_platform/lib/cortex-m4/hard-float/no-interrupts/libnrf_cc310_platform_0.9.18.a(nrf_cc3xx_platform_mutex.c.obj)
- *fill*         0x000000000000734e        0x2 
+                0x0000000000007318       0x26 C:/ncs/v2.5.0/nrfxlib/crypto/nrf_cc310_platform/lib/cortex-m4/hard-float/no-interrupts/libnrf_cc310_platform_0.9.18.a(nrf_cc3xx_platform_mutex.c.obj)
+ *fill*         0x000000000000733e        0x2 
  .rodata.mutex_init.str1.4
-                0x0000000000007350       0x23 C:/ncs/v2.5.0/nrfxlib/crypto/nrf_cc310_platform/lib/cortex-m4/hard-float/no-interrupts/libnrf_cc310_platform_0.9.18.a(nrf_cc3xx_platform_mutex.c.obj)
- *fill*         0x0000000000007373        0x1 
+                0x0000000000007340       0x23 C:/ncs/v2.5.0/nrfxlib/crypto/nrf_cc310_platform/lib/cortex-m4/hard-float/no-interrupts/libnrf_cc310_platform_0.9.18.a(nrf_cc3xx_platform_mutex.c.obj)
+ *fill*         0x0000000000007363        0x1 
  .rodata.domain_secp256r1
-                0x0000000000007374       0xcc C:/ncs/v2.5.0/nrfxlib/crypto/nrf_cc310_bl/lib/cortex-m4/hard-float/no-interrupts/libnrf_cc310_bl_0.9.12.a(nrf_cc310_bl_ecdsa_verify_secp256r1.c.obj)
-                0x0000000000007374                domain_secp256r1
+                0x0000000000007364       0xcc C:/ncs/v2.5.0/nrfxlib/crypto/nrf_cc310_bl/lib/cortex-m4/hard-float/no-interrupts/libnrf_cc310_bl_0.9.12.a(nrf_cc310_bl_ecdsa_verify_secp256r1.c.obj)
+                0x0000000000007364                domain_secp256r1
  .rodata.NRF_CC310_BL_HASH_LARVAL_SHA256
-                0x0000000000007440       0x20 C:/ncs/v2.5.0/nrfxlib/crypto/nrf_cc310_bl/lib/cortex-m4/hard-float/no-interrupts/libnrf_cc310_bl_0.9.12.a(nrf_cc310_bl_hash_sha256.c.obj)
-                0x0000000000007440                NRF_CC310_BL_HASH_LARVAL_SHA256
+                0x0000000000007430       0x20 C:/ncs/v2.5.0/nrfxlib/crypto/nrf_cc310_bl/lib/cortex-m4/hard-float/no-interrupts/libnrf_cc310_bl_0.9.12.a(nrf_cc310_bl_hash_sha256.c.obj)
+                0x0000000000007430                NRF_CC310_BL_HASH_LARVAL_SHA256
  .rodata.boot_img_magic
-                0x0000000000007460       0x10 modules/mcuboot/boot/bootutil/zephyr/libmcuboot_util.a(bootutil_public.c.obj)
-                0x0000000000007460                boot_img_magic
+                0x0000000000007450       0x10 modules/mcuboot/boot/bootutil/zephyr/libmcuboot_util.a(bootutil_public.c.obj)
+                0x0000000000007450                boot_img_magic
  .rodata.main.str1.1
-                0x0000000000007470       0xde app/libapp.a(main.c.obj)
+                0x0000000000007460       0xde app/libapp.a(main.c.obj)
  .rodata.str1.1
-                0x000000000000754e        0x8 app/libapp.a(main.c.obj)
+                0x000000000000753e        0x8 app/libapp.a(main.c.obj)
  .rodata.flash_device_base.str1.1
-                0x0000000000007556       0x26 app/libapp.a(flash_map_extended.c.obj)
+                0x0000000000007546       0x26 app/libapp.a(flash_map_extended.c.obj)
  .rodata.ec_secp256r1_oid
-                0x000000000000757c        0x9 app/libapp.a(image_ecdsa.c.obj)
+                0x000000000000756c        0x9 app/libapp.a(image_ecdsa.c.obj)
  .rodata.ec_pubkey_oid
-                0x0000000000007585        0x8 app/libapp.a(image_ecdsa.c.obj)
+                0x0000000000007575        0x8 app/libapp.a(image_ecdsa.c.obj)
  .rodata.bootutil_max_image_size.str1.1
-                0x000000000000758d       0x3b app/libapp.a(bootutil_misc.c.obj)
+                0x000000000000757d       0x3b app/libapp.a(bootutil_misc.c.obj)
  .rodata.boot_validate_slot.isra.0.str1.1
-                0x00000000000075c8       0x3a app/libapp.a(loader.c.obj)
+                0x00000000000075b8       0x3a app/libapp.a(loader.c.obj)
  .rodata.boot_swap_image.isra.0.str1.1
-                0x0000000000007602       0x2f app/libapp.a(loader.c.obj)
+                0x00000000000075f2       0x2f app/libapp.a(loader.c.obj)
  .rodata.context_boot_go.str1.1
-                0x0000000000007631       0xa4 app/libapp.a(loader.c.obj)
+                0x0000000000007621       0xa4 app/libapp.a(loader.c.obj)
  .rodata.swap_read_status_bytes.str1.1
-                0x00000000000076d5       0x23 app/libapp.a(swap_move.c.obj)
+                0x00000000000076c5       0x23 app/libapp.a(swap_move.c.obj)
  .rodata.boot_slots_compatible.str1.1
-                0x00000000000076f8       0x93 app/libapp.a(swap_move.c.obj)
+                0x00000000000076e8       0x93 app/libapp.a(swap_move.c.obj)
  .rodata.swap_status_source.str1.1
-                0x000000000000778b       0xa4 app/libapp.a(swap_move.c.obj)
+                0x000000000000777b       0xa4 app/libapp.a(swap_move.c.obj)
  .rodata.swap_run.str1.1
-                0x000000000000782f       0x89 app/libapp.a(swap_move.c.obj)
+                0x000000000000781f       0x89 app/libapp.a(swap_move.c.obj)
  .rodata.ecdsa_pub_key
-                0x00000000000078b8       0x5b app/libapp.a(autogen-pubkey.c.obj)
-                0x00000000000078b8                ecdsa_pub_key
+                0x00000000000078a8       0x5b app/libapp.a(autogen-pubkey.c.obj)
+                0x00000000000078a8                ecdsa_pub_key
  .rodata.str1.1
-                0x0000000000007913       0x11 zephyr/libzephyr.a(cbprintf_packaged.c.obj)
+                0x0000000000007903       0x11 zephyr/libzephyr.a(cbprintf_packaged.c.obj)
  .rodata.z_cbvprintf_impl.str1.1
-                0x0000000000007924       0x12 zephyr/libzephyr.a(cbprintf_nano.c.obj)
+                0x0000000000007914       0x12 zephyr/libzephyr.a(cbprintf_nano.c.obj)
                                          0x13 (size before relaxing)
  .rodata.sys_reboot.str1.1
-                0x0000000000007936       0x29 zephyr/libzephyr.a(reboot.c.obj)
+                0x0000000000007926       0x29 zephyr/libzephyr.a(reboot.c.obj)
  .rodata.str1.1
-                0x000000000000795f        0x4 zephyr/arch/arch/arm/core/aarch32/mpu/libarch__arm__core__aarch32__mpu.a(arm_core_mpu.c.obj)
+                0x000000000000794f        0x4 zephyr/arch/arch/arm/core/aarch32/mpu/libarch__arm__core__aarch32__mpu.a(arm_core_mpu.c.obj)
  .rodata.str1.1
-                0x0000000000007963        0xf zephyr/soc/soc/arm/common/cortex_m/libsoc__arm__common__cortex_m.a(arm_mpu_regions.c.obj)
+                0x0000000000007953        0xf zephyr/soc/soc/arm/common/cortex_m/libsoc__arm__common__cortex_m.a(arm_mpu_regions.c.obj)
  .rodata.CSWTCH.5
-                0x0000000000007972        0x6 zephyr/soc/soc/arm/nordic_nrf/nrf52/libsoc__arm__nordic_nrf__nrf52.a(soc.c.obj)
+                0x0000000000007962        0x6 zephyr/soc/soc/arm/nordic_nrf/nrf52/libsoc__arm__nordic_nrf__nrf52.a(soc.c.obj)
  .rodata.str1.1
-                0x0000000000007978        0x4 zephyr/soc/soc/arm/nordic_nrf/nrf52/libsoc__arm__nordic_nrf__nrf52.a(soc.c.obj)
+                0x0000000000007968        0x4 zephyr/soc/soc/arm/nordic_nrf/nrf52/libsoc__arm__nordic_nrf__nrf52.a(soc.c.obj)
  .rodata.str1.1
-                0x000000000000797c       0x29 zephyr/drivers/clock_control/libdrivers__clock_control.a(clock_control_nrf.c.obj)
+                0x000000000000796c       0x29 zephyr/drivers/clock_control/libdrivers__clock_control.a(clock_control_nrf.c.obj)
  .rodata.str1.1
-                0x00000000000079a5       0x24 zephyr/drivers/flash/libdrivers__flash.a(soc_flash_nrf.c.obj)
+                0x0000000000007995       0x24 zephyr/drivers/flash/libdrivers__flash.a(soc_flash_nrf.c.obj)
  .rodata.str1.1
-                0x00000000000079c9       0x1c zephyr/drivers/gpio/libdrivers__gpio.a(gpio_nrfx.c.obj)
+                0x00000000000079b9       0x1c zephyr/drivers/gpio/libdrivers__gpio.a(gpio_nrfx.c.obj)
  .rodata.str1.1
-                0x00000000000079e5       0x1e zephyr/drivers/serial/libdrivers__serial.a(uart_nrfx_uarte.c.obj)
+                0x00000000000079d5       0x1e zephyr/drivers/serial/libdrivers__serial.a(uart_nrfx_uarte.c.obj)
  .rodata.str1.1
-                0x0000000000007a03        0xc modules/nrf/lib/fatal_error/lib..__nrf__lib__fatal_error.a(fatal_error.c.obj)
+                0x00000000000079f3        0xc modules/nrf/lib/fatal_error/lib..__nrf__lib__fatal_error.a(fatal_error.c.obj)
  .rodata.boot_swap_type_multi.str1.1
-                0x0000000000007a0f       0xb8 modules/mcuboot/boot/bootutil/zephyr/libmcuboot_util.a(bootutil_public.c.obj)
+                0x00000000000079ff       0xb8 modules/mcuboot/boot/bootutil/zephyr/libmcuboot_util.a(bootutil_public.c.obj)
  .rodata.boot_swap_tables
-                0x0000000000007ac7       0x12 modules/mcuboot/boot/bootutil/zephyr/libmcuboot_util.a(bootutil_public.c.obj)
+                0x0000000000007ab7       0x12 modules/mcuboot/boot/bootutil/zephyr/libmcuboot_util.a(bootutil_public.c.obj)
  .rodata.CSWTCH.15
-                0x0000000000007ad9        0x6 modules/hal_nordic/nrfx/libmodules__hal_nordic__nrfx.a(system_nrf52840.c.obj)
+                0x0000000000007ac9        0x6 modules/hal_nordic/nrfx/libmodules__hal_nordic__nrfx.a(system_nrf52840.c.obj)
  .rodata.CSWTCH.6
-                0x0000000000007adf        0x6 modules/hal_nordic/nrfx/libmodules__hal_nordic__nrfx.a(system_nrf52840.c.obj)
+                0x0000000000007acf        0x6 modules/hal_nordic/nrfx/libmodules__hal_nordic__nrfx.a(system_nrf52840.c.obj)
  .rodata.str1.1
-                0x0000000000007ae5        0xb modules/hal_nordic/nrfx/libmodules__hal_nordic__nrfx.a(nrfx_clock.c.obj)
+                0x0000000000007ad5        0xb modules/hal_nordic/nrfx/libmodules__hal_nordic__nrfx.a(nrfx_clock.c.obj)
  .rodata.port_offset.1
-                0x0000000000007af0       0x10 modules/hal_nordic/nrfx/libmodules__hal_nordic__nrfx.a(nrfx_gpiote.c.obj)
- .rodata.ports  0x0000000000007b00        0x2 modules/hal_nordic/nrfx/libmodules__hal_nordic__nrfx.a(nrfx_gpiote.c.obj)
+                0x0000000000007ae0       0x10 modules/hal_nordic/nrfx/libmodules__hal_nordic__nrfx.a(nrfx_gpiote.c.obj)
+ .rodata.ports  0x0000000000007af0        0x2 modules/hal_nordic/nrfx/libmodules__hal_nordic__nrfx.a(nrfx_gpiote.c.obj)
  .rodata.str1.1
-                0x0000000000007b02        0xc modules/hal_nordic/nrfx/libmodules__hal_nordic__nrfx.a(nrfx_gpiote.c.obj)
+                0x0000000000007af2        0xc modules/hal_nordic/nrfx/libmodules__hal_nordic__nrfx.a(nrfx_gpiote.c.obj)
  .rodata.str1.1
-                0x0000000000007b0e        0x9 modules/hal_nordic/nrfx/libmodules__hal_nordic__nrfx.a(nrfx_ppi.c.obj)
+                0x0000000000007afe        0x9 modules/hal_nordic/nrfx/libmodules__hal_nordic__nrfx.a(nrfx_ppi.c.obj)
  .rodata.str1.1
-                0x0000000000007b17        0x9 modules/hal_nordic/nrfx/libmodules__hal_nordic__nrfx.a(nrfx_wdt.c.obj)
+                0x0000000000007b07        0x9 modules/hal_nordic/nrfx/libmodules__hal_nordic__nrfx.a(nrfx_wdt.c.obj)
  .rodata._DoInit.str1.1
-                0x0000000000007b20        0x9 modules/segger/libmodules__segger.a(SEGGER_RTT.c.obj)
+                0x0000000000007b10        0x9 modules/segger/libmodules__segger.a(SEGGER_RTT.c.obj)
  .rodata._aInitStr.0
-                0x0000000000007b29       0x11 modules/segger/libmodules__segger.a(SEGGER_RTT.c.obj)
+                0x0000000000007b19       0x11 modules/segger/libmodules__segger.a(SEGGER_RTT.c.obj)
  .rodata.str1.1
-                0x0000000000007b3a        0x3 zephyr/kernel/libkernel.a(init.c.obj)
+                0x0000000000007b2a        0x3 zephyr/kernel/libkernel.a(init.c.obj)
  .rodata.boot_banner.str1.1
-                0x0000000000007b3d       0x28 zephyr/kernel/libkernel.a(banner.c.obj)
+                0x0000000000007b2d       0x28 zephyr/kernel/libkernel.a(banner.c.obj)
  *(SORT_BY_ALIGNMENT(.gnu.linkonce.r.*))
-                0x0000000000007b68                . = ALIGN (0x4)
- *fill*         0x0000000000007b65        0x3 
-                0x0000000000007b68                __rodata_region_end = .
-                0x0000000000007b80                . = ALIGN (_region_min_align)
+                0x0000000000007b58                . = ALIGN (0x4)
+ *fill*         0x0000000000007b55        0x3 
+                0x0000000000007b58                __rodata_region_end = .
+                0x0000000000007b60                . = ALIGN (_region_min_align)
                 0x0000000000008000                . = ALIGN ((0x1 << LOG2CEIL ((__rodata_region_end - ADDR (rom_start)))))
                 0x0000000000008000                __rom_region_end = ((__rom_region_start + .) - ADDR (rom_start))
 
@@ -4098,7 +4098,7 @@ rodata          0x00000000000070f0      0xa78
                 0x0000000020000000                . = ALIGN (_region_min_align)
                 0x0000000020000000                _image_ram_start = .
 
-.ramfunc        0x0000000020000000        0x0 load address 0x0000000000007b68
+.ramfunc        0x0000000020000000        0x0 load address 0x0000000000007b58
                 0x0000000020000000                . = ALIGN (_region_min_align)
                 0x0000000020000000                . = ALIGN ((0x1 << LOG2CEIL (__ramfunc_size)))
                 0x0000000020000000                __ramfunc_start = .
@@ -4108,9 +4108,9 @@ rodata          0x00000000000070f0      0xa78
                 0x0000000020000000                . = ALIGN ((0x1 << LOG2CEIL (__ramfunc_size)))
                 0x0000000020000000                __ramfunc_end = .
                 0x0000000000000000                __ramfunc_size = (__ramfunc_end - __ramfunc_start)
-                0x0000000000007b68                __ramfunc_load_start = LOADADDR (.ramfunc)
+                0x0000000000007b58                __ramfunc_load_start = LOADADDR (.ramfunc)
 
-datas           0x0000000020000000      0x118 load address 0x0000000000007b68
+datas           0x0000000020000000      0x118 load address 0x0000000000007b58
                 0x0000000020000000                __data_region_start = .
                 0x0000000020000000                __data_start = .
  *(SORT_BY_ALIGNMENT(.data))
@@ -4171,10 +4171,10 @@ datas           0x0000000020000000      0x118 load address 0x0000000000007b68
  *(SORT_BY_ALIGNMENT(.kernel.*))
                 0x0000000020000118                __data_end = .
                 0x0000000000000118                __data_size = (__data_end - __data_start)
-                0x0000000000007b68                __data_load_start = LOADADDR (datas)
-                0x0000000000007b68                __data_region_load_start = LOADADDR (datas)
+                0x0000000000007b58                __data_load_start = LOADADDR (datas)
+                0x0000000000007b58                __data_region_load_start = LOADADDR (datas)
 
-device_states   0x0000000020000118        0xa load address 0x0000000000007c80
+device_states   0x0000000020000118        0xa load address 0x0000000000007c70
                 0x0000000020000118                __device_states_start = .
  *(SORT_BY_ALIGNMENT(.z_devstate))
  .z_devstate    0x0000000020000118        0x2 zephyr/drivers/clock_control/libdrivers__clock_control.a(clock_control_nrf.c.obj)
@@ -4185,86 +4185,86 @@ device_states   0x0000000020000118        0xa load address 0x0000000000007c80
                 0x0000000020000122                __device_states_end = .
 
 log_mpsc_pbuf_area
-                0x0000000020000122        0x0 load address 0x0000000000007c8a
+                0x0000000020000122        0x0 load address 0x0000000000007c7a
                 0x0000000020000122                _log_mpsc_pbuf_list_start = .
  *(SORT_BY_NAME(SORT_BY_ALIGNMENT(._log_mpsc_pbuf.static.*)))
                 0x0000000020000122                _log_mpsc_pbuf_list_end = .
 
 log_msg_ptr_area
-                0x0000000020000122        0x0 load address 0x0000000000007c8a
+                0x0000000020000122        0x0 load address 0x0000000000007c7a
                 0x0000000020000122                _log_msg_ptr_list_start = .
  *(SORT_BY_NAME(SORT_BY_ALIGNMENT(._log_msg_ptr.static.*)))
                 0x0000000020000122                _log_msg_ptr_list_end = .
 
 log_dynamic_area
-                0x0000000020000122        0x0 load address 0x0000000000007c8a
+                0x0000000020000122        0x0 load address 0x0000000000007c7a
                 0x0000000020000122                _log_dynamic_list_start = .
  *(SORT_BY_NAME(SORT_BY_ALIGNMENT(._log_dynamic.static.*)))
                 0x0000000020000122                _log_dynamic_list_end = .
 
-k_timer_area    0x0000000020000122        0x0 load address 0x0000000000007c8a
+k_timer_area    0x0000000020000122        0x0 load address 0x0000000000007c7a
                 0x0000000020000122                _k_timer_list_start = .
  *(SORT_BY_NAME(SORT_BY_ALIGNMENT(._k_timer.static.*)))
                 0x0000000020000122                _k_timer_list_end = .
 
 k_mem_slab_area
-                0x0000000020000122        0x0 load address 0x0000000000007c8a
+                0x0000000020000122        0x0 load address 0x0000000000007c7a
                 0x0000000020000122                _k_mem_slab_list_start = .
  *(SORT_BY_NAME(SORT_BY_ALIGNMENT(._k_mem_slab.static.*)))
                 0x0000000020000122                _k_mem_slab_list_end = .
 
-k_heap_area     0x0000000020000122        0x0 load address 0x0000000000007c8a
+k_heap_area     0x0000000020000122        0x0 load address 0x0000000000007c7a
                 0x0000000020000122                _k_heap_list_start = .
  *(SORT_BY_NAME(SORT_BY_ALIGNMENT(._k_heap.static.*)))
                 0x0000000020000122                _k_heap_list_end = .
 
-k_mutex_area    0x0000000020000122        0x0 load address 0x0000000000007c8a
+k_mutex_area    0x0000000020000122        0x0 load address 0x0000000000007c7a
                 0x0000000020000122                _k_mutex_list_start = .
  *(SORT_BY_NAME(SORT_BY_ALIGNMENT(._k_mutex.static.*)))
                 0x0000000020000122                _k_mutex_list_end = .
 
-k_stack_area    0x0000000020000122        0x0 load address 0x0000000000007c8a
+k_stack_area    0x0000000020000122        0x0 load address 0x0000000000007c7a
                 0x0000000020000122                _k_stack_list_start = .
  *(SORT_BY_NAME(SORT_BY_ALIGNMENT(._k_stack.static.*)))
                 0x0000000020000122                _k_stack_list_end = .
 
-k_msgq_area     0x0000000020000122        0x0 load address 0x0000000000007c8a
+k_msgq_area     0x0000000020000122        0x0 load address 0x0000000000007c7a
                 0x0000000020000122                _k_msgq_list_start = .
  *(SORT_BY_NAME(SORT_BY_ALIGNMENT(._k_msgq.static.*)))
                 0x0000000020000122                _k_msgq_list_end = .
 
-k_mbox_area     0x0000000020000122        0x0 load address 0x0000000000007c8a
+k_mbox_area     0x0000000020000122        0x0 load address 0x0000000000007c7a
                 0x0000000020000122                _k_mbox_list_start = .
  *(SORT_BY_NAME(SORT_BY_ALIGNMENT(._k_mbox.static.*)))
                 0x0000000020000122                _k_mbox_list_end = .
 
-k_pipe_area     0x0000000020000122        0x0 load address 0x0000000000007c8a
+k_pipe_area     0x0000000020000122        0x0 load address 0x0000000000007c7a
                 0x0000000020000122                _k_pipe_list_start = .
  *(SORT_BY_NAME(SORT_BY_ALIGNMENT(._k_pipe.static.*)))
                 0x0000000020000122                _k_pipe_list_end = .
 
-k_sem_area      0x0000000020000122        0x0 load address 0x0000000000007c8a
+k_sem_area      0x0000000020000122        0x0 load address 0x0000000000007c7a
                 0x0000000020000122                _k_sem_list_start = .
  *(SORT_BY_NAME(SORT_BY_ALIGNMENT(._k_sem.static.*)))
                 0x0000000020000122                _k_sem_list_end = .
 
-k_event_area    0x0000000020000122        0x0 load address 0x0000000000007c8a
+k_event_area    0x0000000020000122        0x0 load address 0x0000000000007c7a
                 0x0000000020000122                _k_event_list_start = .
  *(SORT_BY_NAME(SORT_BY_ALIGNMENT(._k_event.static.*)))
                 0x0000000020000122                _k_event_list_end = .
 
-k_queue_area    0x0000000020000122        0x0 load address 0x0000000000007c8a
+k_queue_area    0x0000000020000122        0x0 load address 0x0000000000007c7a
                 0x0000000020000122                _k_queue_list_start = .
  *(SORT_BY_NAME(SORT_BY_ALIGNMENT(._k_queue.static.*)))
                 0x0000000020000122                _k_queue_list_end = .
 
-k_condvar_area  0x0000000020000122        0x0 load address 0x0000000000007c8a
+k_condvar_area  0x0000000020000122        0x0 load address 0x0000000000007c7a
                 0x0000000020000122                _k_condvar_list_start = .
  *(SORT_BY_NAME(SORT_BY_ALIGNMENT(._k_condvar.static.*)))
                 0x0000000020000122                _k_condvar_list_end = .
 
 net_buf_pool_area
-                0x0000000020000122        0x0 load address 0x0000000000007c8a
+                0x0000000020000122        0x0 load address 0x0000000000007c7a
                 0x0000000020000122                _net_buf_pool_list_start = .
  *(SORT_BY_NAME(SORT_BY_ALIGNMENT(._net_buf_pool.static.*)))
                 0x0000000020000122                _net_buf_pool_list_end = .
@@ -5777,8 +5777,8 @@ noinit          0x00000000200014c0     0x3080
                 0x0000000000002671       0x39 C:/ncs/v2.5.0/nrfxlib/crypto/nrf_cc310_bl/lib/cortex-m4/hard-float/no-interrupts/libnrf_cc310_bl_0.9.12.a(ssi_hal.c.obj)
  *(SORT_BY_ALIGNMENT(.gnu.attributes))
 
-.last_section   0x0000000000007c8a        0x4
-                0x0000000000007c8a        0x4 LONG 0xe015e015
-                0x0000000000007c8e                _flash_used = ((LOADADDR (.last_section) + SIZEOF (.last_section)) - __rom_region_start)
+.last_section   0x0000000000007c7a        0x4
+                0x0000000000007c7a        0x4 LONG 0xe015e015
+                0x0000000000007c7e                _flash_used = ((LOADADDR (.last_section) + SIZEOF (.last_section)) - __rom_region_start)
 OUTPUT(zephyr\zephyr.elf elf32-littlearm)
 LOAD linker stubs

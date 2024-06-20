@@ -780,7 +780,7 @@ set_target_properties(devicetree_target PROPERTIES "DT_REG|/soc/qspi@40029000/mx
 set_target_properties(devicetree_target PROPERTIES "DT_REG|/soc/qspi@40029000/mx25r6435f@0/partitions|SIZE" "")
 set_target_properties(devicetree_target PROPERTIES "DT_NODE|/soc/qspi@40029000/mx25r6435f@0/partitions/partition@0" TRUE)
 set_target_properties(devicetree_target PROPERTIES "DT_NODELABEL|storage_partition" "/soc/qspi@40029000/mx25r6435f@0/partitions/partition@0")
-set_target_properties(devicetree_target PROPERTIES "DT_PROP|/soc/qspi@40029000/mx25r6435f@0/partitions/partition@0|label" "storage")
+set_target_properties(devicetree_target PROPERTIES "DT_PROP|/soc/qspi@40029000/mx25r6435f@0/partitions/partition@0|label" "storage_partition")
 set_target_properties(devicetree_target PROPERTIES "DT_PROP|/soc/qspi@40029000/mx25r6435f@0/partitions/partition@0|read-only" "False")
 set_target_properties(devicetree_target PROPERTIES "DT_PROP|/soc/qspi@40029000/mx25r6435f@0/partitions/partition@0|reg" "0;131072;")
 set_target_properties(devicetree_target PROPERTIES "DT_REG|/soc/qspi@40029000/mx25r6435f@0/partitions/partition@0|NUM" "1")
