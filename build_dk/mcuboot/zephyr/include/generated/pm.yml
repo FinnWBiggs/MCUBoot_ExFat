@@ -12,10 +12,9 @@ mcuboot_primary:
 # slot configuration.
 mcuboot_secondary:
   share_size: [mcuboot_primary]
+  region: external_flash
   placement:
-    align: {start: 0x1000}
-    align_next: 0x1000 # Ensure that the next partition does not interfere with this image
-    after: mcuboot_primary
+    align: {start: 4}
 # Padding placed before image to boot. This reserves space for the MCUboot image header
 # and it ensures that the boot image gets linked with the correct address offset in flash.
 mcuboot_pad:

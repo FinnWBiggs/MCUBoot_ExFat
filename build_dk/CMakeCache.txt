@@ -406,7 +406,7 @@ Zephyr_DIR:PATH=C:/ncs/v2.5.0/zephyr/share/zephyr-package/cmake
 mcuboot_DTC_OVERLAY_FILE:STRING=C:/ncs/v2.5.0/nrf/modules/mcuboot/usb.overlay
 
 //No help, variable specified on the command line.
-mcuboot_OVERLAY_CONFIG:UNINITIALIZED=C:/ncs/v2.5.0/nrf/subsys/partition_manager/partition_manager_enabled.conf
+mcuboot_OVERLAY_CONFIG:UNINITIALIZED=C:/ncs/v2.5.0/nrf/subsys/partition_manager/partition_manager_enabled.conf;C:/ncs/v2.5.0/nrf/subsys/partition_manager/ext_flash_mcuboot_secondary.conf
 
 
 ########################

@@ -30,7 +30,7 @@ LOG_MODULE_REGISTER(main);
 #include <ff.h>
 #endif
 
-#define STORAGE_PARTITION		storage_partition
+#define STORAGE_PARTITION		auli_storage
 #define STORAGE_PARTITION_ID	FIXED_PARTITION_ID(STORAGE_PARTITION)
 
 static struct fs_mount_t fs_mnt;

@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "flash_map.h": "c"
+        "flash_map.h": "c",
+        "ff.h": "c"
     }
 }

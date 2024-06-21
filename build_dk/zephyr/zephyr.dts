@@ -17,6 +17,7 @@
 		zephyr,flash = &flash0;
 		zephyr,code-partition = &slot0_partition;
 		zephyr,ieee802154 = &ieee802154;
+		nordic,pm-ext-flash = &mx25r64;
 	};
 	aliases {
 		led0 = &led0;
@@ -489,9 +490,8 @@
 					compatible = "fixed-partitions";
 					#address-cells = < 0x1 >;
 					#size-cells = < 0x1 >;
-					storage_partition: partition@0 {
-						label = "storage_partition";
-						reg = < 0x0 0x20000 >;
+					auli_storage: partition@f4000 {
+						reg = < 0xf4000 0x10000 >;
 						phandle = < 0x1c >;
 					};
 				};
@@ -790,7 +790,7 @@
 	};
 	msc_disk0 {
 		compatible = "zephyr,flash-disk";
-		partition = < &storage_partition >;
+		partition = < &auli_storage >;
 		disk-name = "NAND";
 		cache-size = < 0x1000 >;
 	};

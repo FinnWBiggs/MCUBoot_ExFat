@@ -551,7 +551,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[C:/ncs/toolchains/c57af46cb7/opt/
 //NCS child image controlled
 NCS_TOOLCHAIN_VERSION:INTERNAL=NONE
 //NCS child image controlled
-OVERLAY_CONFIG:INTERNAL=C:/ncs/v2.5.0/nrf/subsys/partition_manager/partition_manager_enabled.conf
+OVERLAY_CONFIG:INTERNAL=C:/ncs/v2.5.0/nrf/subsys/partition_manager/partition_manager_enabled.conf;C:/ncs/v2.5.0/nrf/subsys/partition_manager/ext_flash_mcuboot_secondary.conf
 //West
 WEST:INTERNAL=C:/ncs/toolchains/c57af46cb7/opt/bin/python.exe;-m;west
 //NCS child image controlled
