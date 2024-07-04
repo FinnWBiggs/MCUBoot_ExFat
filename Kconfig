@@ -43,6 +43,7 @@ config APP_MSC_STORAGE_SDCARD
 endchoice
 
 config DISK_RAM_VOLUME_SIZE
+	int "Ram Volume Size"
 	default 32 if APP_MSC_STORAGE_NONE
 
 config MASS_STORAGE_DISK_NAME

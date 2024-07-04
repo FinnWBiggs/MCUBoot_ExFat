@@ -39,7 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/subsys/bootloader/bl_override/cmake_install.cmake")
   include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/subsys/net/cmake_install.cmake")
   include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/subsys/dfu/cmake_install.cmake")
   include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/subsys/shell/cmake_install.cmake")

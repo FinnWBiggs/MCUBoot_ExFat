@@ -402,12 +402,6 @@ ZephyrBuildConfiguration_DIR:PATH=C:/ncs/v2.5.0/nrf/share/zephyrbuild-package/cm
 //The directory containing a CMake configuration file for Zephyr.
 Zephyr_DIR:PATH=C:/ncs/v2.5.0/zephyr/share/zephyr-package/cmake
 
-//Default mcuboot configuration file
-mcuboot_DTC_OVERLAY_FILE:STRING=C:/ncs/v2.5.0/nrf/modules/mcuboot/usb.overlay
-
-//No help, variable specified on the command line.
-mcuboot_OVERLAY_CONFIG:UNINITIALIZED=C:/ncs/v2.5.0/nrf/subsys/partition_manager/partition_manager_enabled.conf;C:/ncs/v2.5.0/nrf/subsys/partition_manager/ext_flash_mcuboot_secondary.conf
-
 
 ########################
 # INTERNAL cache entries
@@ -526,7 +520,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=136
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=135
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -574,7 +568,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_Dtc:INTERNAL=[C:/ncs/toolchains/c57af46cb7/opt/bin/
 //Details about finding GnuLd
 FIND_PACKAGE_MESSAGE_DETAILS_GnuLd:INTERNAL=[c:/ncs/toolchains/c57af46cb7/opt/zephyr-sdk/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld.bfd.exe][v2.38()]
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[C:/ncs/toolchains/c57af46cb7/opt/bin/python.exe][cfound components: Interpreter ][v3.8.2()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[C:/ncs/toolchains/c57af46cb7/opt/bin/python.exe][cfound components: Interpreter ][v3.8.2(3.8)]
 //West
 WEST:INTERNAL=C:/ncs/toolchains/c57af46cb7/opt/bin/python.exe;-m;west
 //a configuration file for the runners Python package

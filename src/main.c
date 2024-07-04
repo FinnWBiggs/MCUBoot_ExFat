@@ -22,9 +22,9 @@
 
 LOG_MODULE_REGISTER(main);
 
-#if CONFIG_DISK_DRIVER_FLASH
+// #if CONFIG_DISK_DRIVER_FLASH
 #include <zephyr/storage/flash_map.h>
-#endif
+// #endif
 
 #if CONFIG_FAT_FILESYSTEM_ELM
 #include <ff.h>
@@ -38,7 +38,7 @@ static struct fs_mount_t fs_mnt;
 static int setup_flash(struct fs_mount_t *mnt)
 {
 	int rc = 0;
-#if CONFIG_DISK_DRIVER_FLASH
+// #if CONFIG_DISK_DRIVER_FLASH
 	unsigned int id;
 	const struct flash_area *pfa;
 
@@ -59,7 +59,7 @@ static int setup_flash(struct fs_mount_t *mnt)
 	if (rc < 0) {
 		flash_area_close(pfa);
 	}
-#endif
+// #endif
 	return rc;
 }
 

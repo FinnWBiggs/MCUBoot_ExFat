@@ -19,8 +19,6 @@ C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/CMakeFiles/runners_yaml_pro
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/CMakeFiles/pristine.dir
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/CMakeFiles/app.dir
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/CMakeFiles/partition_manager.dir
-C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/CMakeFiles/mcuboot_primary_app_hex.dir
-C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/CMakeFiles/mcuboot_primary_hex.dir
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/CMakeFiles/merged_hex.dir
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/CMakeFiles/edit_cache.dir
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/CMakeFiles/partition_manager_report.dir
@@ -209,8 +207,6 @@ C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/samples/common/
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/samples/common/mcumgr_bt_ota_dfu/CMakeFiles/rebuild_cache.dir
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/subsys/CMakeFiles/edit_cache.dir
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/subsys/CMakeFiles/rebuild_cache.dir
-C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/subsys/bootloader/bl_override/CMakeFiles/edit_cache.dir
-C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/subsys/bootloader/bl_override/CMakeFiles/rebuild_cache.dir
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/subsys/net/CMakeFiles/edit_cache.dir
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/subsys/net/CMakeFiles/rebuild_cache.dir
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/subsys/net/lib/CMakeFiles/edit_cache.dir
@@ -243,12 +239,6 @@ C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/tests/mocks/CMa
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/wfa-qt-control-app/CMakeFiles/edit_cache.dir
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/wfa-qt-control-app/CMakeFiles/rebuild_cache.dir
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/mcuboot/CMakeFiles/edit_cache.dir
-C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/mcuboot/CMakeFiles/mcuboot_sign_target.dir
-C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/mcuboot/CMakeFiles/mcuboot_menuconfig.dir
-C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/mcuboot/CMakeFiles/mcuboot_shared_property_target.dir
-C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/mcuboot/CMakeFiles/mcuboot_subimage.dir
-C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/mcuboot/CMakeFiles/mcuboot_guiconfig.dir
-C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/mcuboot/CMakeFiles/dfu_application_zip.dir
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/mcuboot/CMakeFiles/rebuild_cache.dir
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/mcuboot/boot/bootutil/zephyr/CMakeFiles/edit_cache.dir
 C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/mcuboot/boot/bootutil/zephyr/CMakeFiles/rebuild_cache.dir

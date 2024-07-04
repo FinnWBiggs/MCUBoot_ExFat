@@ -385,6 +385,10 @@
 						label = "image-1";
 						reg = < 0x82000 0x76000 >;
 					};
+					storage_partition: partition@f8000 {
+						label = "storage";
+						reg = < 0xf8000 0x8000 >;
+					};
 				};
 			};
 		};
@@ -486,15 +490,6 @@
 				has-dpd;
 				t-enter-dpd = < 0x2710 >;
 				t-exit-dpd = < 0x88b8 >;
-				partitions {
-					compatible = "fixed-partitions";
-					#address-cells = < 0x1 >;
-					#size-cells = < 0x1 >;
-					auli_storage: partition@f4000 {
-						reg = < 0xf4000 0x10000 >;
-						phandle = < 0x1c >;
-					};
-				};
 			};
 		};
 		pwm3: pwm@4002d000 {
@@ -787,11 +782,5 @@
 		compatible = "arduino,uno-adc";
 		#io-channel-cells = < 0x1 >;
 		io-channel-map = < 0x0 &adc 0x1 >, < 0x1 &adc 0x2 >, < 0x2 &adc 0x4 >, < 0x3 &adc 0x5 >, < 0x4 &adc 0x6 >, < 0x5 &adc 0x7 >;
-	};
-	msc_disk0 {
-		compatible = "zephyr,flash-disk";
-		partition = < &auli_storage >;
-		disk-name = "NAND";
-		cache-size = < 0x1000 >;
 	};
 };

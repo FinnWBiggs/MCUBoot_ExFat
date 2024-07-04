@@ -1169,38 +1169,10 @@ zephyr_udc0: &usbd {
 };
 # 0 "<command-line>" 2
 # 1 "c:/Users/finnb/Documents/auli/MCUBoot_ExFat/boards/nrf52840dk_nrf52840.overlay" 1
-
-
-
-
-
-
-/delete-node/ &storage_partition;
-
+# 9 "c:/Users/finnb/Documents/auli/MCUBoot_ExFat/boards/nrf52840dk_nrf52840.overlay"
 / {
  chosen {
   nordic,pm-ext-flash = &mx25r64;
- };
-};
-
-&mx25r64 {
- partitions {
-  compatible = "fixed-partitions";
-  #address-cells = <1>;
-  #size-cells = <1>;
-
-  auli_storage: partition@f4000 {
-   reg = <0xf4000 0x10000>;
-  };
- };
-};
-
-/ {
- msc_disk0 {
-  compatible = "zephyr,flash-disk";
-  partition = <&auli_storage>;
-  disk-name = "NAND";
-  cache-size = <4096>;
  };
 };
 # 0 "<command-line>" 2

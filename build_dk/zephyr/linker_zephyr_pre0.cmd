@@ -2,7 +2,7 @@
 _region_min_align = 32;
 MEMORY
     {
-    FLASH (rx) : ORIGIN = 0xc200, LENGTH = 0xf3e00
+    FLASH (rx) : ORIGIN = 0x0, LENGTH = 0x100000
     RAM (wx) : ORIGIN = 0x20000000, LENGTH = 0x40000
    
     IDT_LIST (wx) : ORIGIN = 0xFFFFF7FF, LENGTH = 2K
@@ -41,7 +41,7 @@ SECTIONS
  *(.iplt)
  }
    
- __rom_region_start = 0xc200;
+ __rom_region_start = 0x0;
     rom_start :
  {
 HIDDEN(__rom_start_address = .);
