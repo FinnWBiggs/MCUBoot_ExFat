@@ -1,6 +1,12 @@
 # MCUBoot_ExFat
 
-## BEWARE!!!
+# A FOUND SOLUTION!
+
+If you're coming from the devZone post which links this repository, please jump to the last few messages. We found a solution, which I have hosted in the repository linked below. 
+
+https://github.com/FinnWBiggs/mass_pm
+
+## BEWARE!!! THIS REPOSITORY WILL NOT BUILD.
 
 To those who come after me, likely from my nordic devZone post, something is very wrong with how this repository builds. 
 
