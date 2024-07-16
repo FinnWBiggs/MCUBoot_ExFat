@@ -1,8 +1,21 @@
 # MCUBoot_ExFat
 
-## BEWARE
+## BEWARE!!!
 
-To those who come after me, likely from my nordic devZone post, something is very wrong
+To those who come after me, likely from my nordic devZone post, something is very wrong with how this repository builds. 
+
+Every code and config file in this repo is indentical to a version I got working, but this one generates assembler errors. 
+
+It's still linked in the devZone post, so I'm leaving this up rather than deleting it, but it WILL NOT BUILD.
+
+The problem with partition manager and mass storage is well-covered in the following nordic devzone posts: 
+
+* (mine -- you may have come from here) https://devzone.nordicsemi.com/f/nordic-q-a/112280/mcuboot-dfu-interference-with-exfat-filesystem
+* (a clever person who found a PM bug) https://devzone.nordicsemi.com/f/nordic-q-a/109170/bug-in-partition_manager_output-py-leading-to-incorrect-pm_foreach_affiliated_to_disk
+* (relevant pull request) https://github.com/nrfconnect/sdk-nrf/pull/16444
+* (someone with a similar issue) https://devzone.nordicsemi.com/f/nordic-q-a/113000/usb-mass-sample-and-partition-manager-build-issues
+
+I wish you the best of luck!
 
 ## Build Instructions
 
@@ -19,6 +32,11 @@ When adding a build configuration through the nrfConnect SDK GUI, use the follow
 | Partitioning      | pm_static.yml                         |
 
 ## New, more minimal method to crash the code
+
+NOTE: I have added one more prj.conf option -- REAL_MAIN
+
+Setting REAL_MAIN to yes compiles the project with the main from the mass sample.
+Setting REAL_MAIN to no compiles the project with a stub main.
 
 In prj.conf, enable partition manager via
 
