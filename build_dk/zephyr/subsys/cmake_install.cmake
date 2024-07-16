@@ -38,27 +38,102 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
+  # Include the install script for the subdirectory.
   include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/canbus/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/debug/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/fb/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/fs/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/ipc/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/logging/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/mgmt/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/modbus/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/pm/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/portability/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/random/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/rtio/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/sd/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/stats/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/storage/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/task_wdt/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/testsuite/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/tracing/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/usb/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/disk/cmake_install.cmake")
+endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/debug/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/fb/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/fs/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/ipc/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/logging/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/mgmt/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/modbus/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/pm/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/portability/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/random/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/rtio/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/sd/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/stats/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/storage/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/task_wdt/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/testsuite/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/tracing/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/usb/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/disk/cmake_install.cmake")
 endif()
 

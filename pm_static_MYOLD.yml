@@ -13,6 +13,5 @@ fatfs_storage:
     placement:
         after: [start]
         align: {start: 4096}
-    # 2Mb size, external flash is 8Mb total
     size: 0x20000
     address: 0x0

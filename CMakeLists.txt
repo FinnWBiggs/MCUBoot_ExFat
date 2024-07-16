@@ -9,7 +9,7 @@
 # mcuboot, which is easy to customize on a per-board basis. It can be
 # used as a starting point for new applications.
 
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.20.0)
 
 # find_package(Zephyr) in order to load application boilerplate:
 # https://docs.zephyrproject.org/latest/develop/application/index.html
@@ -23,4 +23,22 @@ endif()
 
 target_compile_definitions(app PRIVATE "-DMCUBOOT_HELLO_WORLD_FROM=\"${FROM_WHO}\"")
 
-target_sources(app PRIVATE src/main.c)
+target_sources_ifdef(
+  CONFIG_REAL_MAIN
+  app PRIVATE 
+  src/real_main.c
+)
+
+if(NOT CONFIG_REAL_MAIN)
+  message("NOT REAL MAIN")
+  target_sources(
+    app PRIVATE 
+    src/stub_main.c
+  )
+endif()
+
+if(CONFIG_BUILD_WITH_TFM)
+  target_include_directories(app PRIVATE
+    $<TARGET_PROPERTY:tfm,TFM_BINARY_DIR>/install/interface/include
+  )
+endif()

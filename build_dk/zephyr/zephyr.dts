@@ -490,6 +490,11 @@
 				has-dpd;
 				t-enter-dpd = < 0x2710 >;
 				t-exit-dpd = < 0x88b8 >;
+				partitions {
+					compatible = "fixed-partitions";
+					#address-cells = < 0x1 >;
+					#size-cells = < 0x1 >;
+				};
 			};
 		};
 		pwm3: pwm@4002d000 {

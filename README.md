@@ -1,5 +1,9 @@
 # MCUBoot_ExFat
 
+## BEWARE
+
+To those who come after me, likely from my nordic devZone post, something is very wrong
+
 ## Build Instructions
 
 Nothing too special needs to be done to build this project.

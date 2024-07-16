@@ -38,9 +38,12 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
+  # Include the install script for the subdirectory.
   include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/arch/arch/arm/core/aarch32/cortex_m/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/arch/arch/arm/core/aarch32/mpu/cmake_install.cmake")
+endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/arch/arch/arm/core/aarch32/mpu/cmake_install.cmake")
 endif()
 

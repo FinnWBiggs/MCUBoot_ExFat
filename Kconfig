@@ -1,6 +1,9 @@
 # Copyright (c) 2019-2020 Nordic Semiconductor ASA
 # SPDX-License-Identifier: Apache-2.0
 
+config REAL_MAIN
+	bool "Option to determine whether the compiled main of this sample is real or a stub"
+	
 config APP_WIPE_STORAGE
 	bool "Option to clear the flash area before mounting"
 	help

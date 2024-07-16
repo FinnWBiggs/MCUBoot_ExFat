@@ -38,14 +38,37 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
+  # Include the install script for the subdirectory.
   include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/ext/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/lib/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/samples/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/subsys/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/modules/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/drivers/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/tests/cmake_install.cmake")
+endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/lib/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/samples/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/subsys/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/modules/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/drivers/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/tests/cmake_install.cmake")
 endif()
 

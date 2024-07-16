@@ -38,53 +38,232 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
+  # Include the install script for the subdirectory.
   include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/arch/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/lib/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/soc/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/boards/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/wfa-qt-control-app/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/mcuboot/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/mbedtls/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/trusted-firmware-m/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/cjson/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/azure-sdk-for-c/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/cirrus-logic/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/openthread/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/memfault-firmware-sdk/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/canopennode/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/chre/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/cmsis/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/fatfs/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/hal_nordic/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/st/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/hal_wurthelektronik/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/libmetal/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/liblc3/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/littlefs/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/loramac-node/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/lvgl/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/lz4/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/mipi-sys-t/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nanopb/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf_hw_models/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/open-amp/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/picolibc/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/segger/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/tinycrypt/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/TraceRecorder/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/uoscore-uedhoc/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/zcbor/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/zscilib/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrfxlib/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/connectedhomeip/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/kernel/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/cmake/flash/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/cmake/usage/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/cmake/reports/cmake_install.cmake")
+endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/lib/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/soc/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/boards/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/subsys/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/wfa-qt-control-app/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/mcuboot/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/mbedtls/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/trusted-firmware-m/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/cjson/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/azure-sdk-for-c/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/cirrus-logic/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/openthread/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/memfault-firmware-sdk/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/canopennode/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/chre/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/cmsis/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/fatfs/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/hal_nordic/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/st/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/hal_wurthelektronik/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/libmetal/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/liblc3/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/littlefs/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/loramac-node/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/lvgl/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/lz4/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/mipi-sys-t/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nanopb/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrf_hw_models/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/open-amp/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/picolibc/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/segger/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/tinycrypt/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/TraceRecorder/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/uoscore-uedhoc/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/zcbor/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/zscilib/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/nrfxlib/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/modules/connectedhomeip/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/kernel/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/cmake/flash/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/cmake/usage/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/cmake/reports/cmake_install.cmake")
 endif()
 

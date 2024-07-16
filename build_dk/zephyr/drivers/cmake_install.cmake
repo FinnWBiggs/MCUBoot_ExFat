@@ -38,21 +38,72 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
+  # Include the install script for the subdirectory.
   include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/disk/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/interrupt_controller/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/misc/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/pcie/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/usb/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/usb_c/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/clock_control/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/console/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/flash/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/gpio/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/hwinfo/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/pinctrl/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/serial/cmake_install.cmake")
-  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/timer/cmake_install.cmake")
+endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/interrupt_controller/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/misc/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/pcie/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/usb/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/usb_c/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/clock_control/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/console/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/flash/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/gpio/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/hwinfo/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/pinctrl/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/serial/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/finnb/Documents/auli/MCUBoot_ExFat/build_dk/zephyr/drivers/timer/cmake_install.cmake")
 endif()
 

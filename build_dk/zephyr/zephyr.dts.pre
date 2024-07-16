@@ -1168,12 +1168,36 @@ zephyr_udc0: &usbd {
  status = "okay";
 };
 # 0 "<command-line>" 2
-# 1 "c:/Users/finnb/Documents/auli/MCUBoot_ExFat/boards/nrf52840dk_nrf52840.overlay" 1
-# 9 "c:/Users/finnb/Documents/auli/MCUBoot_ExFat/boards/nrf52840dk_nrf52840.overlay"
+# 1 "C:/Users/finnb/Documents/auli/MCUBoot_ExFat/boards/nrf52840dk_nrf52840.overlay" 1
+&mx25r64 {
+    partitions {
+        compatible = "fixed-partitions";
+        #address-cells = <1>;
+        #size-cells = <1>;
+
+    };
+};
+
 / {
- chosen {
-  nordic,pm-ext-flash = &mx25r64;
- };
+    chosen {
+        nordic,pm-ext-flash = &mx25r64;
+    };
+};
+# 0 "<command-line>" 2
+# 1 "./boards/nrf52840dk_nrf52840.overlay" 1
+&mx25r64 {
+    partitions {
+        compatible = "fixed-partitions";
+        #address-cells = <1>;
+        #size-cells = <1>;
+
+    };
+};
+
+/ {
+    chosen {
+        nordic,pm-ext-flash = &mx25r64;
+    };
 };
 # 0 "<command-line>" 2
 # 1 "C:/ncs/v2.5.0/zephyr/misc/empty_file.c"

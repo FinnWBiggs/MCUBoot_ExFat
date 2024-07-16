@@ -20,4 +20,5 @@ empty_file.o: C:/ncs/v2.5.0/zephyr/misc/empty_file.c \
  C:/ncs/v2.5.0/zephyr/dts/arm/nordic/override.dtsi \
  C:/ncs/v2.5.0/zephyr/boards/arm/nrf52840dk_nrf52840/nrf52840dk_nrf52840-pinctrl.dtsi \
  C:/ncs/v2.5.0/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h \
- c:/Users/finnb/Documents/auli/MCUBoot_ExFat/boards/nrf52840dk_nrf52840.overlay
+ C:/Users/finnb/Documents/auli/MCUBoot_ExFat/boards/nrf52840dk_nrf52840.overlay \
+ boards/nrf52840dk_nrf52840.overlay
